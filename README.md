@@ -19,7 +19,7 @@ Use the encryption key and the authentication key provided by Trustpilot. You ca
 Customer data will be pulled from Salesforce in a JSON format, specifically email, name, and a unique reference number. We are using Salesforce's uniqueID but you can use any unique value for the customer. 
 
 Example:
-`{
+```{
 
 "email":"xyz@domain.com",
 
@@ -31,6 +31,6 @@ Example:
 
 "tags":["tag1","tag2","tag3"]
 
-}`
+}```
 
 The encryption process will fun without any customization needed. The final link will be printed in the command line for reference, then stored back into Salesforce in the "description" field. You can customize this so that the Business Generated Link is stored in any Salesforce field. 
