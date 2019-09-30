@@ -31,6 +31,7 @@ Example:
 
 "tags":["tag1","tag2","tag3"]
 
-}```
+}
 
-The encryption process will fun without any customization needed. The final link will be printed in the command line for reference, then stored back into Salesforce in the "description" field. You can customize this so that the Business Generated Link is stored in any Salesforce field. 
+
+The encryption process will run without any customization needed. The final link will be printed in the command line for reference, then stored back into Salesforce in the "description" field. You can customize this so that the Business Generated Link is stored in any Salesforce field. 
