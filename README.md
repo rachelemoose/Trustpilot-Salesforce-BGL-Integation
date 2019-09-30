@@ -19,7 +19,7 @@ Use the encryption key and the authentication key provided by Trustpilot. You ca
 Customer data will be pulled from Salesforce in a JSON format, specifically email, name, and a unique reference number. We are using Salesforce's uniqueID but you can use any unique value for the customer. 
 
 Example:
-```{
+{
 
 "email":"xyz@domain.com",
 
